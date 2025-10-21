@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TDLRR Settings</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <div class="header">
+      <div class="logo">📝🌐</div>
+      <h1>TDLRR</h1>
+      <p>Reddit Translation & Readability</p>
+    </div>
+    
+    <div class="info-section">
+      <p class="info-text">
+        🎯 <strong>Inline Buttons:</strong> TL;DR, ELI5, Translate buttons appear next to Reddit's action buttons on posts and comments.
+      </p>
+      <p class="info-text">
+        📊 <strong>Thread TL;DR:</strong> Click the "TL;DR ALL" button on posts to summarize the entire thread including all comments.
+      </p>
+      <p class="info-text">
+        🧠 <strong>Smart AI Prompts:</strong> TL;DR captures everything important, ELI5 explains to kids in detail.
+      </p>
+      <p class="info-text">
+        ⚡ Results appear in centered, scrollable boxes that auto-close after 30 seconds.
+      </p>
+    </div>
+    
+    <div class="api-section">
+      <label for="apiKey">Gemini API Key:</label>
+      <div class="api-input-group">
+        <input type="password" id="apiKey" placeholder="Enter your Gemini API key">
+        <button id="toggleApiKey" class="toggle-btn" title="Show/Hide">👁️</button>
+      </div>
+      <button id="saveApiKey" class="primary-btn">💾 Save API Key</button>
+      <a href="https://aistudio.google.com/app/apikey" target="_blank" class="api-help">Get API Key →</a>
+    </div>
+    
+    <div class="stats-section">
+      <div class="stat-item">
+        <span class="stat-label">Status:</span>
+        <span id="extensionStatus" class="stat-value">Active</span>
+      </div>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
