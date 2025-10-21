@@ -1,4 +1,4 @@
-# tldrr: Too Long; Didn't Read? Refined.
+# TLDRR: Too Long; Didn't Read? Refined.
 
 *Translating chaos into clarity.*
 
